@@ -1,0 +1,123 @@
+/* Add some global styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Improve styling for the chat room interface */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .buttons {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Limit the width for a centered appearance */
+  margin: 0 auto; /* Center align the form */
+  }
+  
+  .join {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center; 
+  }
+
+  .join input,
+.join button {
+  margin: 0 auto; /* Center align both input and button */
+}
+  
+  .create-btn {
+    background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px; /* Adjust padding for a smaller button */
+  cursor: pointer;
+  width: auto; /* Let the button width adjust to content */
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+  }
+  
+  .create-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .message-box {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80vw;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .messages {
+    overflow-y: scroll;
+    flex: 1;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .inputs {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  #message {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .muted {
+    font-size: 10px;
+    color: darkgray;
+  }
+  
+  /* Adjust button styling */
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .message-box {
+      width: 90vw;
+    }
+  }
+  
+  /* Add more styling as needed */
+  
